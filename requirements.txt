@@ -1,0 +1,62 @@
+altgraph==0.17
+asn1crypto==1.4.0
+astroid==2.4.2
+certifi==2020.6.20
+cffi==1.14.2
+chardet==3.0.4
+colorama==0.4.4
+conda==4.8.4
+conda-package-handling==1.4.1
+cryptography==2.9.2
+cycler==0.10.0
+Cython==0.29.21
+daal4py==2020.3
+funcsigs==1.0.2
+future==0.18.2
+idna==2.10
+isort==5.6.4
+joblib @ file:///C:/temp/TCAgentCB/joblib_1599789823568/work
+kiwisolver @ file:///C:/temp/TCAgentCB/kiwisolver_1599786163458/work
+lazy-object-proxy==1.4.3
+libarchive-c==2.8
+llvmlite==0.34.0
+matplotlib==3.1.2
+mccabe==0.6.1
+menuinst==1.4.16
+mkl-fft==1.2.0
+mkl-random==1.2.0
+mkl-service==2.3.0
+mkl-umath==0.0.1
+mpi4py==3.0.3
+numba==0.51.2+0.g9d5709615.dirty
+numexpr==2.7.0
+numpy==1.18.5
+pandas @ file:///C:/temp/TCAgentCB/pandas_1599768902197/work
+pefile==2019.4.18
+pycosat==0.6.3
+pycparser==2.20
+pyinstaller==4.0
+pyinstaller-hooks-contrib==2020.10
+pylint==2.6.0
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+PySocks==1.7.0
+python-dateutil==2.8.1
+pytz @ file:///C:/temp/TCAgentCB/pytz_1599789522349/work
+pywin32==227
+pywin32-ctypes==0.2.0
+PyYAML==5.3
+requests==2.23.0
+ruamel-yaml==0.15.99
+scikit-learn==0.23.2
+scipy==1.4.1
+six @ file:///C:/temp/TCAgentCB/six_1599795988574/work
+TBB==0.1
+threadpoolctl @ file:///C:/TCAgent2/temp/buildTmp/tmp_12wp109/threadpoolctl-2.1.0-py3-none-any.whl
+toml==0.10.2
+tqdm==4.39.0
+typed-ast==1.4.1
+urllib3==1.25.10
+win-inet-pton==1.1.0
+wincertstore==0.2
+wrapt==1.12.1

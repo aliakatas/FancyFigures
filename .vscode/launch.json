@@ -1,0 +1,186 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Demo",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-i"]
+        },
+
+        {
+            "name": "Python: Question 1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kpie", 
+                "-qquestion_1", "-x5", "-v"]
+        },
+		
+		{
+            "name": "Python: Question 2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kpie", 
+                "-qquestion_2", "-x6"]
+        },
+		
+		{
+            "name": "Python: Question 3",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kpie", 
+                "-qquestion_3", "-x7"]
+        },
+		
+		{
+            "name": "Python: Question 4",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kpie", 
+                "-qquestion_4", "-x8"]
+        },
+		
+		{
+            "name": "Python: Question 5",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kpie", 
+                "-qquestion_5", "-x9"]
+        },
+		
+		{
+            "name": "Python: Question 6",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kbar", 
+                "-qquestion_6", "-x10", "-tquestion_6"]
+        },
+
+        {
+            "name": "Python: Question 7",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kbar", 
+                "-qquestion_7", "-x11", "-tquestion_7"]
+        },
+
+        {
+            "name": "Python: Question 8",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kwcloud", 
+                "-qquestion_8", "-x12", "-tquestion_8"]
+        },
+
+        {
+            "name": "Python: Question 9",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kheat", 
+                "-qquestion_9", "-tquestion_9", "-l../data/question9_varlist.txt"]
+        },
+
+        {
+            "name": "Python: Question 10",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kwcloud", 
+                "-qquestion_10", "-x22", "-tquestion_10", "-s../data/question10_stopwords.txt"]
+        },
+
+        {
+            "name": "Python: Question 11",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kheat", 
+                "-qquestion_11", "-tquestion_11", "-l../data/question11_varlist.txt"]
+        },
+
+        {
+            "name": "Python: Question 12",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kwcloud", 
+                "-qquestion_12", "-x31", "-tquestion_12", "-s../data/question12_stopwords.txt"]
+        },
+
+        {
+            "name": "Python: Question 13",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kwcloud", 
+                "-qquestion_13", "-x32", "-tquestion_13", "-s../data/question13_stopwords.txt"]
+        },
+
+        {
+            "name": "Python: Question 14",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kwcloud", 
+                "-qquestion_14", "-x33", "-tquestion_14", "-s../data/question14_stopwords.txt"]
+        },
+
+        {
+            "name": "Python: Question 15",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kwcloud", 
+                "-qquestion_15", "-x34", "-tquestion_15", "-s../data/question15_stopwords.txt"]
+        },
+
+        {
+            "name": "Python: Question 16",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kbar", 
+                "-qquestion_16", "-x35", "-tquestion_16"]
+        },
+
+        {
+            "name": "Python: Question 17",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "args": ["../data/Women's Network survey.xlsx", "-o../data/figures_out", "-kheat", 
+                "-qquestion_17", "-tquestion_17", "-l../data/question17_varlist.txt"]
+        }
+    ]
+}
