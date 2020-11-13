@@ -140,7 +140,7 @@ def dumpToText(fname, x, data, min_len=5):
                 w.write(f'{item.strip()} \n')
 
 ###############################################################
-def createBarChart(x, data, name, legend, dislpay=False):
+def createBarChart(x, data, name, legend, display=False):
     uniqueAnswers = {}
     for row in data[x]:
         item = str(row)
@@ -178,7 +178,7 @@ def createBarChart(x, data, name, legend, dislpay=False):
     ax.set_xlabel('')
 
     plt.savefig(name, dpi=200)
-    if dislpay:
+    if display:
         plt.show()
     
     with open(legend + '_legend.txt', 'w') as w:
@@ -189,7 +189,7 @@ def createBarChart(x, data, name, legend, dislpay=False):
             w.write(f'{item} \n')
 
 ###############################################################
-def createHeatmap(var_list, data, name, legend, dislpay=False):
+def createHeatmap(var_list, data, name, legend, display=False):
     ylist = var_list
     optionsMix = data[ylist[0]].unique()
     
@@ -222,7 +222,7 @@ def createHeatmap(var_list, data, name, legend, dislpay=False):
     ax.set_yticklabels(myYlabels, fontsize='x-small', rotation=55)
 
     plt.savefig(name, dpi=200)
-    if dislpay:
+    if display:
         plt.show()
 
     with open(legend, 'w') as w:

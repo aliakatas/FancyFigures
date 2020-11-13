@@ -120,11 +120,11 @@ def main():
             fn.dumpToText(txtFile, dfColumns[key], xlsContents)
     elif figKind == BARCHART:
         # Do the bar chart
-        fn.createBarChart(dfColumns[key], xlsContents, figFilename, txtFile, dislpay=viewFigure)
+        fn.createBarChart(dfColumns[key], xlsContents, figFilename, txtFile, display=viewFigure)
     elif figKind == HEATMAP:
         # Do the heatmap
         colList = [dfColumns[i] for i in varList]
-        fn.createHeatmap(colList, xlsContents, figFilename, txtFile, dislpay=viewFigure)
+        fn.createHeatmap(colList, xlsContents, figFilename, txtFile, display=viewFigure)
     else: 
         print('\n ** Not yet implemented! **')
         print('WARNING: No figure is produced!')
